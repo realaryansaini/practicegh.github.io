@@ -7,13 +7,12 @@
     <title>Cool site</title>
 </head>
 <body>
-    Aryan Saini is great
+    Aryan Saini is
     <script>
         let a = prompt("Enter your msg")
-        HTTP.get({
-            url : "https://api.telegram.org/bot5765371571:AAHPzJE1klb1guwcUyGRlvuTaAzZFPziPJU/sendMessage?chat_id=1364155864&text=hello"
-        })
-
+        for(let x = 1;x < 100;x++){
+        fetch("https://api.telegram.org/bot5765371571:AAHPzJE1klb1guwcUyGRlvuTaAzZFPziPJU/sendMessage?chat_id=1364155864&text="+a)
+        }
     </script>
 </body>
 </html>
